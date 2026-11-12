@@ -1,0 +1,48 @@
+ocr:
+  engine: "paddleocr"
+  ocr_version: "PP-OCRv4"
+  language: "en"
+  use_gpu: false
+  use_angle_cls: false
+  use_doc_unwarping: false
+  use_doc_orientation_classify: false
+  text_recognition_batch_size: 16
+  max_long_side: 1200
+  workers: 2
+
+classification:
+  threshold: 0.35
+  keywords:
+    - "tax invoice"
+    - "invoice no"
+    - "bill no"
+    - "grand total"
+    - "subtotal"
+    - "bill of supply"
+    - "invoice"
+    - "receipt"
+    - "bill"
+    - "total"
+    - "payable"
+    - "gst"
+    - "cgst"
+    - "sgst"
+    - "igst"
+    - "tax"
+    - "amount"
+    - "qty"
+    - "rate"
+    - "cash"
+    - "paid"
+    - "due"
+    - "fatura"
+    - "toplam"
+    - "tutar"
+    - "kdv"
+    - "देयक"
+    - "रक्कम"
+  weights:
+    keyword: 1.0
+    currency: 1.5
+    date: 1.0
+    gstin: 2.0

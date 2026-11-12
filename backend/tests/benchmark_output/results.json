@@ -1,0 +1,100 @@
+[
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\01_retail_receipt.jpg",
+    "is_bill": true,
+    "score": 1.0,
+    "matched_signals": [
+      "keyword:invoice no",
+      "keyword:grand total",
+      "keyword:subtotal",
+      "keyword:invoice",
+      "keyword:total",
+      "keyword:tax",
+      "keyword:cash",
+      "keyword:paid",
+      "pattern:currency",
+      "pattern:date"
+    ],
+    "fields": {
+      "vendor_name": "SUPERMARKET FRESH MART",
+      "bill_date": "15/10/2026",
+      "bill_number": "INV-2026-9812",
+      "total_amount": 22.77
+    },
+    "text": "SUPERMARKET FRESH MART\nInvoice No: INV-2026-9812\nDate: 15/10/2026\n1. Organic Milk 2L $5.50\n2. Whole Wheat Bread $3.20\n3. Olive Oil 500ml $12.00\nSubtotal $20.70\nTax (10%): $2.07\nGrand Total $22.77\nPaid by Cash: $30.00",
+    "processing_time_sec": 38.937
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\02_gst_tax_invoice.png",
+    "is_bill": true,
+    "score": 1.0,
+    "matched_signals": [
+      "keyword:bill no",
+      "keyword:grand total",
+      "keyword:bill",
+      "keyword:total",
+      "keyword:qty",
+      "keyword:rate",
+      "pattern:currency",
+      "pattern:date",
+      "pattern:gstin"
+    ],
+    "fields": {
+      "vendor_name": "TECH HARDWARE SOLUTIONS PVT LTD",
+      "bill_date": "06-11-2026",
+      "bill_number": "THS/2026/0441",
+      "total_amount": 4248.0
+    },
+    "text": "TECH HARDWARE SOLUTIONS PVT LTD\nTAXINVOICE\nGSTIN: 27AABCT3518Q1ZV\nBill No: THS/2026/0441\nDate: 06-11-2026\nItem: Wireless Keyboard Qty: 2 Rate: Rs. 1,200\nItem: Optical Mouse Qty: 2 Rate: Rs 600\nCGST9%: Rs 324.00\nSGST9%: Rs 324.00\nGrand Total: Rs 4,248.00",
+    "processing_time_sec": 42.414
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\03_restaurant_receipt.jpg",
+    "is_bill": true,
+    "score": 1.0,
+    "matched_signals": [
+      "keyword:subtotal",
+      "keyword:receipt",
+      "keyword:total",
+      "keyword:gst",
+      "pattern:currency",
+      "pattern:date"
+    ],
+    "fields": {
+      "vendor_name": "THEGOLDEN SPOON DINER",
+      "bill_date": "Nov 05, 2026",
+      "bill_number": null,
+      "total_amount": 787.5
+    },
+    "text": "THEGOLDEN SPOON DINER\nRECEIPT\nDate: Nov 05, 2026\nPaneer Tikka\nRs 320.00\nButter Naan (3)\nRs 150.00\nDal Makhani\nRs 280.00\nSubtotal: Rs 750.00\nGST (5%): Rs 37.50\nTotal Payable: Rs 787.50",
+    "processing_time_sec": 33.127
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\04_photo_nature.jpg",
+    "is_bill": false,
+    "score": 0.0,
+    "matched_signals": [],
+    "fields": null,
+    "text": "O",
+    "processing_time_sec": 14.411
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\05_general_document.png",
+    "is_bill": false,
+    "score": 0.0,
+    "matched_signals": [],
+    "fields": null,
+    "text": "Meeting Notes - Software Architecture Review\nWe discussed the migration to asynchronous microservices.\nThe engineering team agreed on the following action items\n- Refactor database schema to optimize read queries.\n- Implement distributed caching with Redis.\n- Update integration test coverage for de ployment",
+    "processing_time_sec": 31.684
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\sample_images\\06_corrupted_file.jpg",
+    "is_bill": false,
+    "score": 0.0,
+    "matched_signals": [],
+    "fields": null,
+    "text": "",
+    "error": "cannot identify image file <_io.BytesIO object at 0x0000021A84CE9530>",
+    "processing_time_sec": 0.296
+  }
+]

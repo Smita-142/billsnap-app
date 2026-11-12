@@ -1,0 +1,7 @@
+file,is_bill,score,vendor_name,bill_date,bill_number,total_amount,processing_time_sec,matched_signals
+01_retail_receipt.jpg,True,1.0,SUPERMARKET FRESH MART,15/10/2026,INV-2026-9812,22.77,38.937,keyword:invoice no;keyword:grand total;keyword:subtotal;keyword:invoice;keyword:total;keyword:tax;keyword:cash;keyword:paid;pattern:currency;pattern:date
+02_gst_tax_invoice.png,True,1.0,TECH HARDWARE SOLUTIONS PVT LTD,06-11-2026,THS/2026/0441,4248.0,42.414,keyword:bill no;keyword:grand total;keyword:bill;keyword:total;keyword:qty;keyword:rate;pattern:currency;pattern:date;pattern:gstin
+03_restaurant_receipt.jpg,True,1.0,THEGOLDEN SPOON DINER,"Nov 05, 2026",,787.5,33.127,keyword:subtotal;keyword:receipt;keyword:total;keyword:gst;pattern:currency;pattern:date
+04_photo_nature.jpg,False,0.0,,,,,14.411,
+05_general_document.png,False,0.0,,,,,31.684,
+06_corrupted_file.jpg,False,0.0,,,,,0.296,

@@ -1,0 +1,61 @@
+[
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\dataset_subset\\112_png_jpg.rf.daeb7527a97c2ab3853d0eeda3e250fa.jpg",
+    "is_bill": true,
+    "score": 1.0,
+    "matched_signals": [
+      "keyword:grand total",
+      "keyword:subtotal",
+      "keyword:invoice",
+      "keyword:total",
+      "keyword:tax",
+      "keyword:qty",
+      "pattern:currency"
+    ],
+    "fields": {
+      "vendor_name": null,
+      "bill_date": null,
+      "bill_number": "va",
+      "total_amount": null
+    },
+    "text": "INVOICE\nDATE\nMay14,2020\nINVOICE\nNO\n00110\nALEXGREG\nPAYMENT METHODS\nNova Clothing Incorporated\nDirect Deposit\n324-335-6512\nACCT NO5546 865767504325\n1144 Pine Street,Austin.TX 657438\nEMAlL novaclothinginc@mail.com\nITEM\nQTY\nPRICE\nTOTAL\nBusiness Card Design\n1\n$100\n$100\nFlyer Design\n2\n$200\n$400\nWeb Design\n1\n$300\n$300\nLogo Design\n1\n$200\n$200\nSocial Media Branding\n4\n$100\n$400\nSUBTOTAL\n$1400\nTAX(10%)\n$140\nGRAND TOTAL\n$1540\nCONTACT US\n546-4371-3389\nnclothing@info.com",
+    "processing_time_sec": 42.936
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\dataset_subset\\1132-receipt_jpg.rf.6736dd50e3cd96f11fa9c0a41acaa15a.jpg",
+    "is_bill": true,
+    "score": 0.9,
+    "matched_signals": [
+      "keyword:subtotal",
+      "keyword:total",
+      "keyword:tax",
+      "pattern:currency"
+    ],
+    "fields": {
+      "vendor_name": "VIA EMILIA9",
+      "bill_date": null,
+      "bill_number": null,
+      "total_amount": null
+    },
+    "text": "VIA EMILIA9\n112015THST\nMIAMI BEACH,FL33139\n7862167150\nORDER:Table 11\nCashier.V.\n27-Apr-20176:21:59P\n$14.90\n1\nTagliatella al Ragu\n$18.90\n1\nCappellacci Di Zucca\n$22.90\n1\nStufato Al Latte Di Ravenna\n$56.70\nSubtotal\n$5.10\nTax\n$61.80\nTotal\nOrder QGVRTH3NM28YC\nShow us your review on TripAdvisor or Yelp\nand you'll qet a free qlass of wine",
+    "processing_time_sec": 33.616
+  },
+  {
+    "file": "C:\\Users\\khush\\OneDrive\\Desktop\\New folder (2)\\Bill Snap\\backend\\tests\\dataset_subset\\126_jpg.rf.2d787261ab9afad7e019c57090f50da3.jpg",
+    "is_bill": true,
+    "score": 0.6,
+    "matched_signals": [
+      "keyword:total",
+      "keyword:tax",
+      "keyword:due"
+    ],
+    "fields": {
+      "vendor_name": "s,onnng",
+      "bill_date": null,
+      "bill_number": null,
+      "total_amount": null
+    },
+    "text": "s,onnng\nino's Pizzo\nubilant\nFoodworks Limited\nOZzdsonon\nDomino's Pizza\nInvgice.\nNuberDP166071/2016-2017/30243\noreere\n91\nServar:\nradha\nr\nDoosonron\nDrn'sPizra\nE.\nMed\nHT\nChick Fies\n425.00\n1\nMed\nHT\nvg\nParadis\n395.00\nDozsnie\nSubTot\n820\nDomino's Pizza\nSeryice\na\n00\nTax.0\n6%\nSrvcTex e 9%\n49\n20\nVAT02.5%\n0.0O\n102.50\nTotal\n971\n70\nDZZIA\nRounding.Off\n0.3\nDomino'sPizzo\nDue\n97\nZ\n00\nTIN:07500182751.STNABCD1821CST0\nOrder Online at\nwww.dom\nOR",
+    "processing_time_sec": 34.829
+  }
+]
